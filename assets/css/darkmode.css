@@ -1,0 +1,15 @@
+:root {
+  --white: #F2F2F2;
+  --primary: #3B0273;
+  --secondary: #9530D9;
+}
+
+body.dark-mode {
+  background-image: linear-gradient(120deg, rgb(20, 20, 20), rgb(67, 67, 67));
+  transition: all ease-in-out 0.2s;
+  color: var(--white);
+}
+
+footer.dark-mode {
+  background-color: #cfcfcf;
+}

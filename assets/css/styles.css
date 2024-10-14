@@ -26,8 +26,29 @@ body {
   padding: 1.2rem;
 }
 
+.nav-content {
+  width: 950px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .img-nav {
   height: 3rem;
+}
+
+#dark-mode {
+  background-color: transparent;
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+
+.moon-icon {
+  font-size: 2rem;
+  color: var(--white);
 }
 
 /* ---------------------------NAV------------------------------- */
@@ -35,7 +56,6 @@ body {
 .container {
   width: 100%;
   height: calc(100% + 2vh);
-  background-color: var(--white);
   padding: 1rem;
   display: flex;
   justify-content: center;
@@ -196,6 +216,8 @@ footer {
   align-items: center;
   justify-content: space-between;
   box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.346);
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .img-footer {

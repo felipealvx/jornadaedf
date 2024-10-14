@@ -8,3 +8,12 @@ function showContent(){
     content.style.display = "block"
   }
 }
+
+const btnDark = document.getElementById("dark-mode")
+
+function darkMode (){
+  document.body.classList.toggle("dark-mode")
+  document.querySelector("footer").classList.toggle("dark-mode")
+}
+
+btnDark.addEventListener("click", darkMode)
